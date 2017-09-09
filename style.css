@@ -1,0 +1,119 @@
+.absolute {
+	position: absolute;
+}
+.logo {
+	width: 600px;
+	height: 300px;
+	background: white;
+	top: 100px;
+	left: 100px;
+}
+.part_1,
+.part_4 {
+	z-index: 10;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	top: 5px;
+	right: 122px;
+	background: #df7330;
+}
+.part_2 {
+	width: 180px;
+	height: 90px;
+	top: 26px;
+	right: 40px;
+}
+.part_2_small,
+.part_3_small {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #9bb361;
+	top: 25px;
+	left: 25.3px;
+}
+.part_2_big,
+.part_3_big {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: #9bb361;
+	top: 5px;
+	right: 10px;
+}
+.part_2_triangle_1,
+.part_3_triangle_1 {
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-left: 30px solid #9bb361;
+	border-bottom: 15px solid transparent;
+	top: 30px;
+	left: 58.2px;
+}
+
+.part_2_triangle_2,
+.part_3_triangle_2 {
+	width: 0;
+	height: 0;
+	top: 30px;
+	right: 87.1px;
+	border-top: 15px solid transparent;
+	border-right: 30px solid #9bb361;
+	border-bottom: 15px solid transparent;
+}
+.part_2_fix_circle_3,
+.part_3_fix_circle_3  {
+	z-index: 7;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: white;
+	top: -0.4px;
+	right: 84.3px;
+}
+
+.part_2_fix_circle_3_bottom,
+.part_3_fix_circle_3_bottom {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: white;
+	top: 50.3px;
+	right: 84.3px;
+}
+
+.part_3 {
+	transform: rotate(180deg);
+	width: 180px;
+	height: 100px;
+/*	background: white;*/
+	top: 55px;
+	left: 320px;
+}
+.part_4 {
+	top: 118px;
+	right: 82px;
+	background: #344c72;
+}
+.part_3_fix_circle_3 {
+	z-index: 5;
+}
+.part_2_fix_circle_3_bottom {
+	z-index: 7;
+}
+.part_2_small,
+.part_2_big,
+.part_2_triangle_1,
+.part_2_triangle_2 {
+	z-index: 6;
+	background: #408cb0;
+	border-color: #408cb0;
+}
+.part_3_small {
+	z-index: 8;
+	background: #9bb361;
+	left: 434px;
+	top: 90px;
+}
